@@ -9,7 +9,8 @@ Experiment Science Team
 Bojinov & Saint-Jacques
 -Engineers on experiment sceince team
 
->>>>>>>>>>>>>>>> Part 1: A/B Testing + Cuasal Inference
+>>>>>>>>>> Part 1: A/B Testing + Cuasal Inference
+
     -@LinkedIn: It's all automated, given them the first version of metrics we care about; specifically, what is the lift between old & new that they care about
     -p-Values: UNder null distrb, how likely to see result or more extreme (compare against specific null value)
 							-Engineers might not always understand 
