@@ -51,6 +51,44 @@ Bojinov & Saint-Jacques
 
 
 >>>>>>>>>>>>>>>  Part 2: Network Effects
-
+		PYMK - People You May Know
+			- Conditions of A/B test may be violated by interactions between the groups
+			
+		Testing for Network Effect
+			Rather than doing individualized randomization
+			But can do cluster-based arm
+					Clusters, cliques, etc 
+					So rather than flipping a coin per person, flip a coin per cluster 
+					
+					
+		If you flip a coin per cluster vs person, you'll have less data (mayb 10-15K vs 40-80K) 
+		Comparing Lift in BR & CBR (KDD)
+		
+		Procedure in Practice-
+				-Will cluster and then decided treatment at strong cluster & then also individual and then compare 
+		Results -- 
+			-Feed difference
+			-Did detect that there was a significant p-value for network effect and community detection
+			
+			
+		If you recognize there is a huge network effect, can't use the normal
+		
+		LinkedIn ego-Clustering:
+			-ego netwrok: me + people I know
+			
+		ego-Clustering Treatment Assignment - 
+			Step 1- Me and all my professional connections will be in my network 
+			
+			Flip coin by cluster
+				-If control cluster, willget new feature (but nnone friends)
+				-If treatment cluster, will get features (and all my friends)
+				
+			Then compare just the egos of those cluster
+			With this method, could get data of 200K clusters
+			Then te final analysis is just a t-test
+			 Everytime you increase level of connection, increases exponentionally (so best to just use first connection clusters)
+			 
+			
+		
 		
 
