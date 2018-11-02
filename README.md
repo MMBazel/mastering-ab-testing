@@ -90,5 +90,106 @@ Bojinov & Saint-Jacques
 			 
 			
 		
+Validity Tradeoffs: A Toy Algorithm
+
+	https://www.kdd.org/kdd2017/papers/view/detecting-network-effects-randomizing-over-randomized-experiments
+	https://content.linkedin.com/content/dam/engineering/site-assets/pdfs/ABTestingSocialNetwork_share.pdf
+	
+
+......
+External Validity:
+	We want to make sure there isn;t much overlap & we want to make sure they're representative of the geneal pop of linkedin
+	
+	
+
+High Level Principles -
 		
+		
+		Once we run algorithm based off of standard principles, we get really good results
+		
+		
+		
+Application:
+		Application #1:
+		The experiment was to try to get people to post more
+			In this experiment:
+				If just doing A/B test - would just see #1
+				But with ego analysis, #2 - more positive results
+						For some applications, it may be insist that you share/post more
+						
+						
+
+
+		Application #2: 
+		Had alogirthm change the recommendations that we did
+			SHare more by sharing content your friends would like
+			Resukt: 0 impact on kind of content beng shared
+					Effect on alters - no change
+					On egos - own viral actions inc. 
+					
+					
+					
+					
+		Application #3:
+		Redistributing attention 
+				Make super influential people less visible (and the zeros more visible)
+				
+				
+				
+Practical Considerations:
+
+	-Pick the righ concept of the graph 
+	
+	
+	
+A Simple Way to think about messaging experiments
+
+		Messages are 1:1
+		For any message we can say it was treated to treated, across buckets, etc
+		
+		Building Blocks of Model-
+			Control - Control - like the same as if the treatment wasn;t hapening
+			
+			
+			
+		Cool Approximation 1/2: Corrected Lift
+		
+			Can add lift from messages sent by treatment and add the lift received from treatment group
+			Can only d this if experiment is currently ranked at 50%
+			
+			The great thing is there is no cost - no need to do cluster - do regular condition and assuming messages are 1:1 (not broadcast)  
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
